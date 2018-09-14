@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Formas con opciones múltiples.</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Ejemplo de la entradas con múltiples opciones.</h2>
+        <p>Se seleccionará una opción a partir de la selección de la(s) cajita(s) al lado del texto.</p>
+        <form>
+            <p>
+                Seleccione una o más de las opciones siguientes:<br>
+                <input type="checkbox" name="prenda" value="camisa"> Camisa<br>
+                <input type="checkbox" name="prenda" value="playera"> Playera<br>
+                <input type="checkbox" name="prenda" value="camiseta" checked="False">Camiseta<br>
+            </p>
+            <h2>Ejemplo de entradas con el tipo radio.</h2>
+            <p>Selecciones una opcion por cada enunciado:</p>
+            <p>
+                Género.<br>
+                <input type="radio" name="genero" value="M" checked="checked">Masculino<br>
+                <input type="radio" name="genero" value="F">Femenino
+            </p>
+            <p>
+                Nacionalidad.<br>
+                <input type="radio" name="origen" value="N">Nacional<br>
+                <input type="radio" name="origen" value="E">Extranjero
+            </p>
+            <h2>Ejemplo de menu desplegable.</h2>
+            <p>
+                Puesto.<br>
+                <select name="puesto">
+                    <option value="socio">Socio</option>
+                    <option value="consejo">Miembro del Consejo</option>
+                    <option value="director">Director</option>
+                    <option value="area">Jefe de área</option>
+                </select>
+            </p>    
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
