@@ -24,14 +24,12 @@
 ### CSS3
 
 1. Hojas de estilo
-* Selectores
 * Modelo de caja
-* Unidades y colores
+* Selectores
+* Unidades, colores y estilos
 * Atributos de texto, listas y tablas
-* Artibutos de imágenes
-* Despliegue de elementos
-* Visiblildad de elementos
-* Posicion de elementos
+* Imágenes de fondo
+* Despliegue, visibilidad y posición de elementos
 * Diseño estático
 * Diseño líquido
 * Diseño responsivo
@@ -41,17 +39,20 @@
 1. Javascript y ECMAScript
 * Tipos de datos y operadores
 * Colecciones de datos
-* Los objetos en Javascript
 * Variables y ámbitos
+* Orientación a objetos
 * Condicionales
 * Ciclos
-* Funciones y programación funcional
-* Creación de objetos
-* JSON
+* Funciones
+* Programación orientada a objetos
+* Objetos de texto
+* Objetos numéricos 
+* Objetos de tipo Array
 * Gestión de excepciones
 * Expresiones regulares
 * Fechas
 * Matemáticas
+* Javascript en documentos HTML
 * Eventos
 * El DOM
 * El BOM
