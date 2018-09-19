@@ -8,11 +8,11 @@ body
 header
 {
   height: 200px;
-  width: 80%;
-  margin-left: 10%;
+  width: 80%; 
+  margin-left:10%;
   text-shadow: 10px;
   text-align: center;
-  background-color: blue;
+  background-color: #e8f6f9;
 }
 nav a, nav a:visited
 {
