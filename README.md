@@ -1,9 +1,5 @@
 [![imagenes/pythonista.png](imagenes/pythonista.png)](https://pythonista.io)
 
-# (pycd101) .
-
-## Temario 
-
 ### HTML5
 
 1. Conceptos básicos sobre la web, HTTP y HTML
@@ -30,8 +26,7 @@
 * Atributos de texto, listas y tablas
 * Imágenes de fondo
 * Despliegue, visibilidad y posición de elementos
-* Diseño estático
-* Diseño líquido
+* Diseño estático y diseño líquido
 * Diseño responsivo
 
 ### Javascript
@@ -39,21 +34,19 @@
 1. Javascript y ECMAScript
 * Tipos de datos y operadores
 * Colecciones de datos
-* Variables y ámbitos
-* Orientación a objetos
+* Variables
 * Condicionales
-* Ciclos
+* Ciclos e iteraciones
 * Funciones
 * Programación orientada a objetos
-* Objetos de texto
-* Objetos numéricos 
-* Objetos de tipo Array
+* Funciones y métodos globales
+* String
+* Number 
+* Array, Set y Map
+* Date
+* Math
 * Gestión de excepciones
-* Expresiones regulares
-* Fechas
-* Matemáticas
 * Javascript en documentos HTML
-* Eventos
 * El DOM
 * El BOM
 
