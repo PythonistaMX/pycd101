@@ -9,13 +9,12 @@
 * Listas
 * Tablas
 * Atributos *id* y *class*
-* Delimitadores &lt;div&gt; y &lt;span&gt;
+* Delimitadores *&lt;div&gt;* y *&lt;span&gt;*
 * Hipervínculos
 * Imágenes
 * Multimedia
 * Formas
 * Elementos de estructura de una página web
-* Firefox como herramienta de desarrollo (práctico)
 
 ### CSS3
 
@@ -33,22 +32,23 @@
 
 1. Javascript y ECMAScript
 * Tipos de datos y operadores
-* Colecciones de datos
+* Expresiones, *console.log()* y comentarios
 * Variables
+* Colecciones de datos
 * Condicionales
 * Ciclos e iteraciones
 * Funciones
-* Programación orientada a objetos
-* Funciones y métodos globales
-* String
-* Number 
-* Array, Set y Map
-* Date
-* Math
+* Creación de objetos
+* Ejemplo de clases
+* Ejemplo de herencia
+* Objetos, funciones y métodos globales
+* Los objetos de tipo String
+* Los objetos de tipo Number 
+* Los objetos Array
+* Los objetos Set y Map
 * Gestión de excepciones
 * Javascript en documentos HTML
 * El DOM
-* El BOM
 
 <p style="text-align: center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
 <p style="text-align: center">&copy; José Luis Chiquete Valdivieso. 2018.</p>
