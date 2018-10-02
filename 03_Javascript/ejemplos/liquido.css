@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body
+{
+  min-width: 200px;
+  font-family: "Open Sans";
+  font-size: 1.2em;
+}
+header
+{
+  height: 40%;
+  width: 80%;
+  margin-left: auto;
+  min-width: 100px;
+  margin-left:10%;
+  text-shadow: 10px;
+  text-align: center;
+  background-color: #e8f6f9;
+}
+nav
+{
+  background-color: black;
+  min-width: 300px;
+  width: 40%;
+  margin-left: 30%;
+}
+nav a, nav a:visited
+{
+  color: black;
+  text-decoration: none;
+}
+.opcion
+{
+  display: inline-block;
+  position: relative;
+  top: 0;
+  background-color: #cceeff;
+  min-width: 100px;
+  text-align: center;
+}
+.opcion:hover, .despliegue:hover
+{
+  font-weight: bold;
+  background-color: #80d4ff;
+}
+.menu
+{
+  display: none;
+  background-color: #cceeff;
+    z-index: 1;
+}
+.opcion:hover .menu
+{
+  display: block;
+  position: absolute;
+  min-width: 100px;
+  text-align: center;
+}
