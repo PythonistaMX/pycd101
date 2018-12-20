@@ -1,71 +1,35 @@
 <!DOCTYPE html>
- <html>
-     <head>
-         <title>Hola, mundo</title>
-         <meta charset="UTF-8">
-         <meta name="description" content="Apuntes Pythonista">
-         <meta autor="josech">
-         <style>
-             body
-             {
-              font-family: 'Poppins', sans-serif;
-              font-size: 12px;
-             }
-             #carton
-             {
-               width: 5em;
-               background-color: brown;
-             }
-             .termino
-             {
-               font-size: 1.5em;
-               background-color: blue;
-             }
-         </style>
-     </head>
-     <body>
-       <div id="encabezado">
-       </div>
-       <ul type="square" id="cuadros">
-          <li>Pan</li>
-          <li>Leche</li>
-          <li>Huevos</li>
+<html>
+    <head>
+        <title>Ejemplo de id y class</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Apuntes Pythonista">
+        <meta autor="josech">
+        <style>
+            #parrafo
+            {
+                font-size: 1.5em;
+                font-style: bold;
+                color: red;
+            }
+            .estilo
+            {
+                font-style: italic;
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Este es un ejemplo del uso de los atributos <em>id</em> y <em>class</em>.</p>
+        <h2> Ejemplo de uso del atributo <em>id</em>.</h2>
+        <p>El elemento &lt;id&gt; permite asignar un nombre único a un elemento de HTML.</p>
+        <p id="parrafo">Puede diferenciar a un elemento de otros.</p>
+        <h2>Ejemplo de uso del atributo <em>class</em>.</h2>
+        <p>El atributo <em>class</em> puede asignar un identificador a más de un elemento de HTML.<br/>Esto es útil para.</p>
+        <ul>
+            <li class="estilo">Homogenizar los atributos de grupos de elementos en un documento.</li>
+            <li>Permitir recopilar imformación de dichos elementos a partir del código.</li>
         </ul>
-
-        <ul type="disc" id="discos">
-           <li>Pan</li>
-              <ol type="I">
-                <li>Centeno</li>
-                <li>Integral <span id="carton">__</span> </li>
-                <li>Sin orilla</li>
-              </ol>
-           <li>Leche</li>
-           <li>Huevos</li>
-         </ul>
-
-         <ul type="circle" id="circulos">
-            <li>Pan</li>
-            <li>Leche</li>
-            <li>Huevos</li>
-          </ul>
-
-          <ol id="ordenada">
-             <li>Pan</li>
-             <li>Leche</li>
-             <li>Huevos</li>
-           </ol>
-
-           <dl id="definiciones">
-              <dt class="termino"><dfn>icono</dfn></dt>
-              <dt class="termino"><dfn>ícono</dfn></dt>
-              <dd>Imagen sagrada.<dd>
-              <dd>Retrato pintado sobre una tabla de madera.</dd>
-              <dd>Pequeña imagen que se despliega en una pantalla.</dd>
-              <dt class="termino"><dfn>botón</dfn></dt>
-              <dd>Dispositivo que al ser oprimido desencadena una acción.</dd>
-              <dt class="termino"><dfn>puntero</dfn></dt>
-              <dt class="termino"><dfn>apuntador</dfn></dt>
-              <dd>Imagen que se despliega en una pantalla y que se mueve en respuesta a la acción análoga de un dispositivo.</dd>
-          </dl>
-     </body>
+        <p class="estilo">El atributo class puede ser utilizado incluso en elementos de tipo distinto.</p>
+    </body>
 </html>
