@@ -1,24 +1,24 @@
 [![imagenes/pythonista.png](imagenes/pythonista.png)](https://pythonista.io)
 
-### HTML5
+### [HTML5](01_HTML/)
 
-1. Conceptos básicos sobre la web, HTTP y HTML
+* Conceptos básicos sobre la web, HTTP y HTML
 * Uso de etiquetas y atributos
 * Estructura básica de un documento HTML5
 * Elementos de texto
 * Listas
 * Tablas
-* Atributos *id* y *class*
-* Delimitadores *&lt;div&gt;* y *&lt;span&gt;*
 * Hipervínculos
 * Imágenes
-* Multimedia
 * Formas
+* Multimedia
+* Atributos *id* y *class*
+* Elementos delimitadores
 * Elementos de estructura de una página web
 
-### CSS3
+### [CSS3](02_CSS/)
 
-1. Hojas de estilo
+* Hojas de estilo
 * Modelo de caja
 * Selectores
 * Unidades, colores y estilos
@@ -28,9 +28,9 @@
 * Diseño estático y diseño líquido
 * Diseño responsivo
 
-### Javascript
+### [Javascript](03_Javascript)
 
-1. Javascript y ECMAScript
+* Javascript y ECMAScript
 * Tipos de datos y operadores
 * Expresiones, *console.log()* y comentarios
 * Variables
@@ -51,4 +51,4 @@
 * El DOM
 
 <p style="text-align: center"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
-<p style="text-align: center">&copy; José Luis Chiquete Valdivieso. 2018.</p>
+<p style="text-align: center">&copy; José Luis Chiquete Valdivieso. 2019.</p>
