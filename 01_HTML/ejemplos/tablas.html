@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de tablas</title>
+        <style>
+            table{
+                border-color: black;
+                border-style: solid;
+                border-width: thin;
+            }
+            td{
+                border-color: grey;
+                border-style: solid;
+                border-width: thin;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ejemplo de tablas</h1>
+        <h2>Tabla con un sólo elemento.</h2>
+        <table>
+            <td>Hola</td>
+        </table>
+        <hr/>
+        <h2>Tabla de una sola fila con 3 elementos.</h2>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Tabla de 3 filas con un elemento.</h2>
+        <table>
+            <tr>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+           </tr>
+        </table>
+        <hr/>
+        <h2>Tabla de 3 filas con 3 elementos.</h2>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Tabla de varias filas con diversos números de elementos.</h2> 
+        <table>
+            <tr>
+                <td>1</td>  
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>Tabla con encabezados en una fila.</h2>
+        <table>
+            <tr>
+                <th>Uno</th>
+                <th>Dos</th>
+                <th>Tres</th> 
+            </tr>
+            <tr>
+                <td>1</td> 
+                <td/> 
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+             </tr>
+         </table>
+    </body>
+    <hr/>
+    <h2>Tabla con encabezados en una columnas y una fila.</h2>
+    <table>
+        <tr>
+            <th/>
+            <th>Uno</th>
+            <th>Dos</th>
+            <th>Tres</th> 
+        </tr>
+        <tr>
+            <th>A</th>
+            <td>1</td> 
+            <td/> 
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>B</th>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>C</th>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>D</th>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <hr/>
+    <h2>Tabla con celdas extendidas mediante &lt;rowspan&gt; y &lt;colspan&gt;.</h2>
+    <table>
+        <tr>
+            <th/>
+            <th>Uno</th>
+            <th>Dos</th>
+            <th>Tres</th> 
+        </tr>
+        <tr>
+            <th>A</th>
+            <td colspan="2">1 extendido</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>B</th>
+            <td>3</td>
+            <td rowspan="4">4<br/>extendido</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>C</th>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th>D</th>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>E</th>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+    </table>
+    <hr/>
+    <h2>Tabla con estructura &lt;thead&gt;, &lt;tbody&gt; y &lt;tfoot&gt;.</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Pie 1</th>
+                <th>Pie 2</th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr/>
+    <h2>Tabla que incluye una descrición con el elemento &lt;caption&gt;.</h2>
+    <table>
+        <caption>Ejemplo de &lt;caption&gt;.</caption>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Pie 1</th>
+                <th>Pie 2</th>
+            </tr>
+        </tfoot>
+    </table>
+</html>
