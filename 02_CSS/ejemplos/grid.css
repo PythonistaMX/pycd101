@@ -1,43 +1,43 @@
 
-.wrapper {
+.contenedor {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
   }
   .uno {
-    grid-column: 1 / 3;
+    grid-column: 1 / 6;
     grid-row: 1;
     border-style: solid;
-    border-color: black;
+    border-color: red;
   }
   .dos {
     border-style: solid;
-    border-color: black;
+    border-color: blue;
     grid-column: 2 / 4;
-    grid-row: 1 / 3;
+    grid-row: 2 / 3;
   }
   .tres {
     border-style: solid;
-    border-color: black;
+    border-color: gold;
     grid-column: 1;
-    grid-row: 2 / 5;
+    grid-row: 2 / 4 ;
   }
   .cuatro {
     border-style: solid;
-    border-color: black;
-    grid-column: 3;
-    grid-row: 3;
+    border-color: green;
+    grid-column: 4 / 6;
+    grid-row: 2 / 5;
   }
   .cinco {
     border-style: solid;
     border-color: black;
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 3 / 5;
   }
   .seis {
     border-style: solid;
     border-color: black;
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 3 /5;
   }
